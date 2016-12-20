@@ -1,0 +1,3 @@
+[submodule "ThirdParty/grpc"]
+	path = ThirdParty/grpc
+	url = https://github.com/agrippa1994/grpc-bin.git

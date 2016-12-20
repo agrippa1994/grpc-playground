@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Messages;
+
+service IPC {
+	rpc Init (InitRequest) returns (InitReply) {}
+}
+
+message InitRequest {
+	string name = 1;
+	uint32 pid = 2;
+}
+
+message InitReply {
+	bool status = 1;
+}
